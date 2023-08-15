@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use Spatie\Permission\PermissionServiceProvider;
 
 return [
 
@@ -159,7 +160,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Spatie\Permission\PermissionServiceProvider::class,
         /*
          * Application Service Providers...
          */
