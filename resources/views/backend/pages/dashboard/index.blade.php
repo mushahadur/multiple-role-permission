@@ -1,4 +1,4 @@
-@extends('admin.layout.app')
+@extends('backend.layout.app')
 @section('title')
     Dashboard Page
 @endsection
